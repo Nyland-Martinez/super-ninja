@@ -1,7 +1,7 @@
 class Ninja {
-    constructor(nombre) {
-        this.nombre = nombre;
-        this.salud = 100;
+    constructor() {
+        this.nombre;
+        this.salud;
         this.velocidad = 3;
         this.fuerza = 3;
     }
@@ -34,7 +34,7 @@ class Sensei extends Ninja {
     }
 }
 
-const miNinja = new Ninja("Hyabusa");
+const miNinja = new Ninja("Hyubusa", 100);
 miNinja.sayName();
 miNinja.showStats();
 miNinja.drinkSake();
